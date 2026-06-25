@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --sage: #6B8F71;
+  --sage-light: #A8C5A0;
+  --sage-dark: #4A6741;
+  --cream: #FAF7F2;
+  --earth: #C4956A;
+  --earth-light: #E8C9A8;
+  --charcoal: #2D3748;
+  --muted: #718096;
+  --border: #E2E8E0;
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: var(--cream);
+  color: var(--charcoal);
+  -webkit-font-smoothing: antialiased;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
