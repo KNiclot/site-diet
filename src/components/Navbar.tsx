@@ -2,6 +2,12 @@
 import { useState } from 'react';
 import Link from 'next/link';
 
+const navLinks = [
+  { href: '/presentation', label: 'À propos' },
+  { href: '/boutique', label: 'Boutique' },
+  { href: '/contact', label: 'Contact' },
+];
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
 
@@ -17,12 +23,7 @@ export default function Navbar() {
         </Link>
 
         <div className="hidden md:flex items-center gap-8">
-          {[
-            { href: '/programme', label: 'Programme' },
-            { href: '/recettes', label: 'Recettes' },
-            { href: '/suivi', label: 'Mon Suivi' },
-            { href: '/contact', label: 'Contact' },
-          ].map((link) => (
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -32,10 +33,10 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/programme"
+            href="/boutique"
             className="bg-gradient-to-r from-[#6B8F71] to-[#4A6741] text-white px-5 py-2.5 rounded-full text-sm font-semibold hover:opacity-90 transition-opacity focus-visible:outline-2 focus-visible:outline-[#A8C5A0] focus-visible:outline-offset-2"
           >
-            Commencer
+            Boutique →
           </Link>
         </div>
 
@@ -59,12 +60,7 @@ export default function Navbar() {
 
       {open && (
         <div className="md:hidden bg-white border-t border-[#E2E8E0] px-4 py-4 flex flex-col gap-4">
-          {[
-            { href: '/programme', label: 'Programme' },
-            { href: '/recettes', label: 'Recettes' },
-            { href: '/suivi', label: 'Mon Suivi' },
-            { href: '/contact', label: 'Contact' },
-          ].map((link) => (
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -75,11 +71,11 @@ export default function Navbar() {
             </Link>
           ))}
           <Link
-            href="/programme"
+            href="/boutique"
             className="bg-gradient-to-r from-[#6B8F71] to-[#4A6741] text-white px-5 py-3 rounded-full text-sm font-semibold text-center"
             onClick={() => setOpen(false)}
           >
-            Commencer gratuitement
+            Accéder à la boutique
           </Link>
         </div>
       )}
