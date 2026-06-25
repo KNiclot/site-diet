@@ -1,3 +1,4 @@
+'use client';
 import Link from 'next/link';
 
 const stats = [
@@ -29,7 +30,7 @@ const products = [
       </svg>
     ),
     title: 'Annales BTS Diététique',
-    description: 'Sujets des années précédentes avec corrigés détaillés. Entraînez-vous dans les conditions réelles de l'examen.',
+    description: "Sujets des années précédentes avec corrigés détaillés. Entraînez-vous dans les conditions réelles de l'examen.",
     price: 'À partir de 12€',
     href: '/boutique',
     badge: 'Nouveau',
@@ -50,9 +51,9 @@ const products = [
 ];
 
 const testimonials = [
-  { name: 'Camille R.', role: 'Étudiante BTS 2e année', text: 'Les fiches d'Éléonore sont incroyables ! Tout est clair, bien structuré. J'ai réussi mon BTS grâce à ces révisions.', note: 5 },
-  { name: 'Théo M.', role: 'Diplômé BTS Diététique', text: 'Les annales avec corrigés m'ont vraiment permis de comprendre ce qu'on attend de nous. Je recommande à 100%.', note: 5 },
-  { name: 'Lucie D.', role: 'Étudiante BTS 1re année', text: 'J'aurais adoré avoir ces fiches dès le début ! La qualité du contenu est professionnelle et pédagogique.', note: 5 },
+  { name: 'Camille R.', role: 'Étudiante BTS 2e année', text: "Les fiches d'Éléonore sont incroyables ! Tout est clair, bien structuré. J'ai réussi mon BTS grâce à ces révisions.", note: 5 },
+  { name: 'Théo M.', role: 'Diplômé BTS Diététique', text: "Les annales avec corrigés m'ont vraiment permis de comprendre ce qu'on attend de nous. Je recommande à 100%.", note: 5 },
+  { name: 'Lucie D.', role: 'Étudiante BTS 1re année', text: "J'aurais adoré avoir ces fiches dès le début ! La qualité du contenu est professionnelle et pédagogique.", note: 5 },
 ];
 
 function Stars({ count }: { count: number }) {

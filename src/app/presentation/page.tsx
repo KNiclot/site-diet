@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata: Metadata = {
   title: 'Éléonore Tartonne — Diététicienne | NutriVie',
-  description: 'Découvrez le parcours d'Éléonore Tartonne, diététicienne diplômée d'État et créatrice de ressources pédagogiques pour le BTS Diététique.',
+  description: "Découvrez le parcours d'Éléonore Tartonne, diététicienne diplômée d'État et créatrice de ressources pédagogiques pour le BTS Diététique.",
 };
 
 const parcours = [
@@ -32,7 +32,7 @@ const services = [
       </svg>
     ),
     titre: 'Fiches de révision BTS',
-    description: 'Des fiches synthétiques couvrant l'intégralité du programme BTS Diététique : biochimie, physiologie, diététique clinique, technologie culinaire…',
+    description: "Des fiches synthétiques couvrant l'intégralité du programme BTS Diététique : biochimie, physiologie, diététique clinique, technologie culinaire…",
     lien: '/boutique',
   },
   {
@@ -43,7 +43,7 @@ const services = [
       </svg>
     ),
     titre: 'Annales corrigées',
-    description: 'Sujets des 5 dernières années avec corrigés détaillés et méthodologie. Entraînez-vous dans les conditions de l'examen et comprenez les attentes du jury.',
+    description: "Sujets des 5 dernières années avec corrigés détaillés et méthodologie. Entraînez-vous dans les conditions de l'examen et comprenez les attentes du jury.",
     lien: '/boutique',
   },
   {

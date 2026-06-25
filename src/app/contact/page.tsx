@@ -86,8 +86,6 @@ export default function ContactPage() {
               <div>
                 <label htmlFor="prenom" style={{ display: 'block', fontSize: '14px', fontWeight: 600, color: '#2D3748', marginBottom: '6px' }}>Prénom *</label>
                 <input id="prenom" name="prenom" type="text" required placeholder="Marie" style={{ outline: 'none', border: '2px solid #E2E8E0', borderRadius: '12px', padding: '12px 16px', fontSize: '15px', width: '100%', color: '#2D3748', background: 'white', transition: 'border-color 200ms' }}
-                  onFocus={(e) => (e.target.style.borderColor = '#6B8F71')}
-                  onBlur={(e) => (e.target.style.borderColor = '#E2E8E0')}
                 />
               </div>
               <div>

@@ -22,7 +22,7 @@ const products = [
   {
     id: 'fiches-clinique',
     titre: 'Fiches Diététique Clinique',
-    description: 'Pathologies nutritionnelles, régimes thérapeutiques, enquêtes alimentaires. L'essentiel pour les épreuves pratiques.',
+    description: "Pathologies nutritionnelles, régimes thérapeutiques, enquêtes alimentaires. L'essentiel pour les épreuves pratiques.",
     details: ['15 fiches par pathologie', 'Fiches régimes spécifiques', 'Protocoles de bilan', 'Compatible épreuve E3'],
     prix: 11,
     badge: 'Populaire',
@@ -34,7 +34,7 @@ const products = [
   {
     id: 'fiches-techno',
     titre: 'Fiches Technologie Culinaire',
-    description: 'Techniques culinaires, analyse sensorielle, étiquetage alimentaire. Toutes les notions pour l'épreuve pratique.',
+    description: "Techniques culinaires, analyse sensorielle, étiquetage alimentaire. Toutes les notions pour l'épreuve pratique.",
     details: ['10 fiches techniques', 'Fiches textures modifiées', 'Calculs de rations', 'Fiches réglementaires'],
     prix: 9,
     badge: null,
@@ -46,7 +46,7 @@ const products = [
   {
     id: 'pack-fiches-complet',
     titre: 'Pack Fiches Complet',
-    description: 'Les 3 packs de fiches réunis : Biochimie, Clinique et Technologie Culinaire. Économisez 8€ vs à l'unité.',
+    description: "Les 3 packs de fiches réunis : Biochimie, Clinique et Technologie Culinaire. Économisez 8€ vs à l'unité.",
     details: ['37 fiches au total', '87 pages de contenu', 'Accès à vie', 'Mises à jour incluses'],
     prix: 21,
     badge: 'Meilleur prix',
@@ -82,7 +82,7 @@ const products = [
   {
     id: 'pack-ultimate',
     titre: 'Pack Ultimate BTS',
-    description: 'Tout pour réussir : toutes les fiches + toutes les annales + guide méthodologique exclusif. L'offre la plus complète.',
+    description: "Tout pour réussir : toutes les fiches + toutes les annales + guide méthodologique exclusif. L'offre la plus complète.",
     details: ['37 fiches de révision', 'Annales 2019–2023', 'Guide méthodologique', 'Support par e-mail inclus'],
     prix: 39,
     badge: '⭐ Recommandé',
